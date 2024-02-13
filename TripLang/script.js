@@ -8,7 +8,7 @@ const expression = [
   "https://media.tenor.com/JvT9okzjIxUAAAAi/peachcat-and-goma-peachcat.gif",
 ];
 let n_times_hover = 0;
-nBtn.addEventListener("mousemove", (a) => {
+nBtn.addEventListener("click", (a) => {
   a.preventDefault();
   const x = Math.floor(Math.random() * 200);
   const y = Math.floor(Math.random() * 100);
