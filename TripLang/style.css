@@ -7,3 +7,12 @@ body {
 #btn-No {
   transition: 0.1s all;
 }
+
+@media only screen and (max-width: 320px) {
+  #img {
+    height: 200px;
+  }
+  button {
+    font-size: 10px;
+  }
+}
